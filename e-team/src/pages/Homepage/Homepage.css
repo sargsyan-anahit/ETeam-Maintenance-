@@ -1,0 +1,64 @@
+.homepage-container {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.homepage-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #475569;
+}
+
+.homepage-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #334155;
+    margin-bottom: 24px;
+    padding: 0 10px;
+}
+
+/* 📱 Mobile: < 600px */
+@media (max-width: 600px) {
+    .homepage-container {
+        padding: 40px 16px;
+    }
+
+    .homepage-title {
+        font-size: 2rem;
+    }
+
+    .homepage-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .homepage-description {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+}
+
+/* 🖥 Medium screens: 600–900px */
+@media (min-width: 600px) and (max-width: 900px) {
+    .homepage-title {
+        font-size: 2.5rem;
+    }
+
+    .homepage-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .homepage-description {
+        font-size: 1rem;
+    }
+}
