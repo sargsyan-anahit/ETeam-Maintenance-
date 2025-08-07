@@ -10,16 +10,15 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className="navbar-logo">ETeam</div>
+            <div className="navbar-logo"><Link to="/" onClick={closeMenu}>ETeam</Link></div>
 
             <div className={`nav-links ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li><Link to="/" onClick={closeMenu}>Homepage</Link></li>
-                    <li><Link to="/about" onClick={closeMenu}>About Us</Link></li>
                     <li><Link to="/services" onClick={closeMenu}>Services</Link></li>
                     <li><Link to="/benefits" onClick={closeMenu}>Benefits</Link></li>
                     <li><Link to="/blog" onClick={closeMenu}>Blog</Link></li>
-                    <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
+                    <li><Link to="/contact" onClick={closeMenu}>Contact Us</Link></li>
+                    <li><Link to="/about" onClick={closeMenu}>About Us</Link></li>
                 </ul>
             </div>
 
