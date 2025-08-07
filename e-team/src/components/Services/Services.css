@@ -1,0 +1,60 @@
+.services {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.services h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.service-block {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.service-block h3 {
+    margin-bottom: 1rem;
+    color: #0a4d68;
+}
+
+.service-block ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.service-block li {
+    margin-bottom: 0.5rem;
+}
+
+.cta {
+    background-color: #0a4d68;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: #083a50;
+}
+
+.testimonials, .certifications, .sustainability {
+    margin-top: 3rem;
+    background: #eef5f9;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.testimonial-rotator blockquote {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
